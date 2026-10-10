@@ -1,0 +1,6 @@
+$kind: http-request
+url: http://localhost:8080/api/v1/students/1
+method: GET
+headers:
+  Authorization: Bearer {{jwt_token}}
+order: 2000

@@ -1,0 +1,18 @@
+$kind: http-request
+url: http://localhost:8080/api/v1/students
+method: POST
+headers:
+  Authorization: Bearer {{jwt_token}}
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+        "student_number": "2026-99999",
+        "first_name": "John",
+        "last_name": "Doe",
+        "program_id": 1,
+        "year_level": 1,
+        "email": "johndoe@school.edu"
+    }
+order: 3000

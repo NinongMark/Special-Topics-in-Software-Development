@@ -1,0 +1,7 @@
+# Use this workspace to collaborate
+workspace:
+  id: def98d64-93e4-4484-8714-b24cdcfc5a27
+
+localResources:
+  collections:
+    - ../student_api/Student Information Management API
