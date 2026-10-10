@@ -11,8 +11,8 @@ function formatStudent(student: Student): string {
 
 const sampleStudent: Student = {
   id: 1,
-  name: 'John Doe',
-  email: 'john@example.com',
+  name: 'Angel Mae Palange',
+  email: 'angelmae@example.com',
   status: 'active',
 };
 
@@ -53,8 +53,8 @@ function isStudent(obj: unknown): obj is Student {
 
 const validStudent = {
   id: 2,
-  name: 'Jane Smith',
-  email: 'jane@example.com',
+  name: 'Josselle Silvestre',
+  email: 'josselle@example.com',
   status: 'inactive',
 };
 const invalidStudentId = {
